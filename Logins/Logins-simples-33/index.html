@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+	<title>Login Design Using html5 & css3</title>
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Cabin', sans-serif;
+		}
+
+		body{
+			background: #26a69a;
+
+		}
+
+		.main{
+			width: 400px;
+			background: #fff;
+			margin: 50px auto;
+			box-shadow: 0 2px 5px #222;
+
+		}
+		header{
+			padding: 10px;
+			background: #ff5722;
+			color: #fff;
+			text-align: center;
+
+		}
+		
+        #lock-outline{
+
+        	font-size: 75px;
+        	padding: 5px;
+
+        }
+
+        header::before{
+        	content: "";
+        	border-left: 20px solid transparent;
+        	border-right: 20px solid transparent;
+        	border-top: 20px solid #ff5722;
+        	position: absolute;
+        	top: 175px;
+        	left: 774px;
+
+        }
+
+        #form-box{
+
+        	padding: 25px 25px 10px 25px;
+
+        }
+
+        #icon{
+
+        	width: 50px;
+        	height: 45px;
+        	background: #ff5722;
+        	color: #fff;
+        	line-height: 1.7;
+        	margin-bottom: 5px;
+        	font-size: 29px;
+
+        }
+
+        .inp{
+        	width: 100%;
+        	height: 45px;
+        	padding: 0 15px ;
+        	border: none;
+        	background: #cfd8dc;
+        	font-size: 18px;
+        	color: #555;
+
+        }
+
+        .inp:focus{
+        	outline: none;
+
+        }
+
+        .username, .password{
+        	display: flex;
+        	margin-bottom: 10px;
+        	position: relative;
+
+
+        }
+
+        #rem{
+        	width: 20px;
+        	height: 20px;
+        	float: left;
+
+        }
+
+        #rem-text{
+
+        	float: left;
+        	margin-left: 5px;
+        	color: #444;
+
+        }
+
+        #forgot{
+
+        	float: right;
+        	color: #444;
+
+        }
+        .clear{
+        	clear: both;
+        }
+
+        #sub-btn{
+        	width: 100%;
+        	margin-top: 15px;
+        	padding: 10px;
+        	border: none;
+        	background: #ff5722;
+        	font-size: 20px;
+        	font-weight: bold;
+        	color: #fff;
+        	cursor: pointer;
+        }
+
+        #sub-btn:focus{
+        	outline: none;
+        }
+
+         #sub-btn:hover{
+         	background-color: #dd2c00;
+         }
+         p{
+         	text-align: center;
+         	padding: 10px;
+         	color: #444;
+
+         }
+         .rg-box{
+
+         	display: flex;
+         	text-align: center;
+         	width: 70%;
+         	margin: 0 auto;
+         	justify-content: space-around;
+         }
+
+         .s-icon{
+         	width: 50px;
+         	height: 50px;
+         	font-size: 30px;
+         	color: #fff;
+         	line-height: 1.7;
+         	cursor: pointer;
+
+         }
+
+         .s-icon:hover{
+         	opacity: 0.9;
+
+         }
+         .fb{
+         	background-color: #3b5998;
+
+         }
+         .tweet{
+         	background-color: #55acee;
+         }
+
+         .gplus{
+                background-color: #dd4b39;
+
+         }
+
+         a{
+         	color: #444;
+         }
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<i class="fas fa-user-circle" id="lock-outline"></i>
+			<h2>LOGIN</h2>
+		</header>
+		<form action="#" method="post" id="form-box">
+			<div class="username">
+				<i class="fas fa-user" id="icon"></i>
+				<input type="text" name="username" class="inp" placeholder="Username" required autofocus>
+			</div>
+			<div class="password">
+				<i class="fas fa-lock" id="icon"></i>
+				<input type="password" name="pass" class="inp" placeholder="Password" required>
+			</div>
+			<div class="extra">
+				<input type="checkbox" name="check" id="rem">
+				<div id="rem-text">Remember me</div>
+				<a href="" id="forgot">Forgot password</a>
+			</div>
+			<div class="clear"></div>
+			<input type="submit" name="submit" value="SIGN IN" id="sub-btn">
+			<br>
+			<br>
+			<hr>
+			<p>Or you can Login with of he follwing </p>
+			<div class="rg-box">
+				<div class="s-icon fb"><i class="fab fa-facebook-f"></i></div>
+				<div class="s-icon tweet"><i class="fab fa-twitter"></i></div>
+				<div class="s-icon gplus"><i class="fab fa-google-plus-g"></i></div>
+			</div>
+			<p>Don t have account ?  <a href="">Sign Up</a></p>
+		</form>
+	</div>
+</body>
+</html>

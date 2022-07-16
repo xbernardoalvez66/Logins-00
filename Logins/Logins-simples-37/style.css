@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background: url('./assets/bg.jpg')no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+}
+
+.container{
+	height: 600px;
+	width: 450px;
+	padding:10px;
+	background: #d9eaf4;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	border-radius: 10px;
+
+}
+
+
+.container h3{
+	color: #1d89e4;
+	margin:20px 20px;
+	text-align: right;
+	cursor: pointer;
+}
+
+.container form{
+	margin:100px 40px;
+}
+
+.container .form-group{
+	margin: 30px 0px;
+	position: relative;
+}
+
+.container .fas{
+	position: absolute;
+	bottom: 10px;
+	color: #1d89e4;
+}
+
+.container .form-group input{
+	height: 40px;
+	width: 350px;
+	border: 0;
+	outline: none;
+	background: transparent;
+	padding-left: 40px;
+	border-bottom: 2px solid #ccc;
+	font-size: 18px;
+	color: #111;
+	transition: 0.5s ease-in-out;
+
+}
+
+.container .form-group input:focus{
+	border-bottom: 2px solid #1d89e4;
+}
+
+::placeholder{
+	color: #999;
+}
+
+
+.container .btn button{
+	height: 40px;
+	width: 350px;
+	border: 0;
+	outline: none;
+	background: #1d89e4;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 5px;
+	margin:10px 0px;
+	cursor: pointer;
+}
+
+
+.container .btn a{
+	text-decoration: none;
+	color: #1d89e4;
+	font-weight: bold;
+
+}
+
+
+.container .icons{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	background:#1d89e4;
+	height: 150px;
+	width: 100%;
+
+}
+
+.container .icons p{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin: 30px 0px;
+}
+
+
+ .icons .social{
+ 	position: absolute;
+ 	bottom: 10%;
+ 	left: 15%;
+ }
+
+ .icons .social .fab{
+ 	margin: 20px;
+ 	color: #fff;
+ 	cursor: pointer;
+ }

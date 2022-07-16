@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #9AD1ED;
+}
+
+
+.login_container{
+
+background-color: #efefef;
+width: 350px;
+height: auto;
+
+}
+
+
+.login_top{
+background-color: #efefef;
+border-top: solid .5rem #f39b53;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1.2rem 0;
+
+}
+
+.login_img{
+width: 4rem;
+margin-right: 1rem;
+
+
+}
+
+
+.login_title{
+
+color: #c8c8c8;
+
+}
+
+.login_title span{
+
+color: #f39b53;
+
+}
+
+
+.login_form{
+background: #efefef;
+display: flex;
+flex-direction: column;
+padding: .5rem 2rem 2rem;
+text-align: center;
+
+}
+
+input[type="text"], [type="password"] {
+
+margin: .4rem 0;
+padding: .5rem;
+border: none;
+border-bottom: solid 0.2rem #c8c8c8;
+background: #efefef;
+transition: all .4s
+}
+
+input[type="text"]:focus, [type="password"]:focus{
+
+outline: none;
+border-bottom: solid 0.2rem #e67e22;
+
+
+
+}
+
+.btn_submit{
+
+border: none;
+padding: .5rem 0;
+margin: 1rem 0 .3rem;
+background-color: #31b1e5;
+color: white;
+
+
+
+}
+
+
+.form_recover{
+
+color: #f39b53;
+font-size: 13px;
+text-decoration: none;
+
+
+}
+
+.form_recover:hoover{
+
+color: #e67e22;
+
+
+}

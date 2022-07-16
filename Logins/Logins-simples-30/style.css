@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Sans', sans-serif;
+}
+
+body{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+  background: linear-gradient(251.95deg, #E4EAF3 -3.42%, #C4D9F8 102.18%);
+}
+
+.card{
+
+width: 550px;
+height: 750px;
+background: #fff;
+padding: 40px;
+ filter: drop-shadow(0px 4px 30px rgba(97, 97, 97, 0.2));
+
+
+}
+
+
+.card .logo{
+margin-bottom: 25px;
+
+
+}
+
+
+.card .logo img{
+
+margin: auto;
+display: block;
+
+}
+
+.card .logo .desc_logo{
+
+text-align: center;
+color: #222;
+
+
+}
+
+
+.card form{
+
+width: 80%;
+margin: auto;
+
+
+}
+
+
+.card form h2{
+
+font-size: 18px;
+color: #616161;
+margin-bottom: 10px;
+
+}
+
+.input_group{
+margin-bottom: 5px;
+
+
+} 
+
+
+
+.input_group input{
+
+width: 100%;
+height: 40px;
+border-radius: 5px;
+background: 1px solid #E5E5E5;
+padding: 0 10px;
+color: #616161;
+font-size: 16px;
+font-weight: bold;
+outline: none;
+transition: all 0.3s ease;
+
+}
+
+.input_group input:focus{
+
+background: 1px solid #d1d1d1;
+
+}
+
+
+.link_text{
+
+margin-top: 5px;
+font-size: 15px;
+color: #7CA3FD;
+text-decoration: none;
+
+}
+
+
+.button_form{
+margin-top: 20px;
+height: 40px;
+width: 100%;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: #fff;
+font-weight: bold;
+background: #7CA3FD;
+font-size: 17px;
+cursor: pointer;
+
+
+}
+
+
+.recordar_check{
+
+margin-top: 15px;
+width: 100%;
+display: flex;
+align-items: center;
+color: #616161;
+
+}
+
+.recordar_check input{
+margin-right: 10px;
+
+}
+
+.google_button{
+cursor: pointer;
+background: 1px solid #E5E5E5;
+border-radius: 5px;
+color: #616161;	
+margin-top: 25px;
+background: #fff;
+width: 100%;
+height: 50px;	
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.google_button img{
+
+width: 25px;
+height: 25px;
+margin-right: 15px;
+
+}
+
+.google_button p{
+
+color: #616161;
+font-weight: bold;
+
+}
+
+.crear_cuenta {
+
+text-align: center;
+margin-top: 25px;
+
+}
+

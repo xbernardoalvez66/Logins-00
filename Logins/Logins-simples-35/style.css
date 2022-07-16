@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--primary:#536dfe;
+	--secondary:#1f2937;
+}
+body{
+	background: #f3f4f6;
+	color: var(--secondary);
+}
+.container{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.img-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-container img{
+	max-width: 40vw;
+}
+.login-container{
+	display: flex;
+	margin: 2rem;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 15px;
+}
+
+.form-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.form-container h1{
+	font-size: 3rem;
+	padding: 1rem;
+}
+.input-container{
+	margin: 1rem;
+}
+
+.input-container input{
+	border: none;
+	min-width: 300px;
+	background-color: transparent;
+	height: 2rem;
+	font-size: 1.1rem;
+	border-bottom: 1px solid var(--secondary);
+	transition: all 0.3s ease-in; 
+}
+
+
+.input-container input:focus{
+	border:none;
+	box-shadow: 0 0 0 0;
+	border-bottom: 2px solid var(--primary);
+	transform: translateY(5px);
+
+}
+.input-container input:invalid{
+	border:none;
+	box-shadow: 0 0 0 0;
+	border-bottom: 2px solid #ef4444;
+
+}
+
+.forgot-pass{
+	font-size: 0.8rem;
+	color: var(--primary);
+	text-decoration: none;
+	margin-left: auto;
+	margin-bottom: 1rem;
+}
+
+.btn{
+	background: var(--primary);
+	border: none;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+	transform: scale(1.1);
+}
+
+@media screen(max-width: 480px){
+	.container{
+		flex-direction: column-reverse;
+	}
+
+	.input-continer input{
+		 min-width: 250px;
+	}
+}

@@ -1,0 +1,76 @@
+body{
+
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+background-size: cover;
+background:url(img/img-fundo.jpg) no-repeat;
+
+}
+
+.caixa-login{
+
+width: 280px;
+position: absolute;
+top: 33%;
+left: 55%;
+transform: translate(-50%, -50%);
+color: white;
+
+}
+
+.caixa-login h1{
+
+font-size: 40px;
+border-bottom: 5px solid #0728e1;
+width: 115px;
+margin-bottom: 20px;
+padding: 13px 0;
+text-transform: uppercase;
+
+}
+
+.caixadetexto{
+
+width: 100%;
+font-size: 20px;
+padding: 8px 0;
+margin: 8px 0;
+border-bottom: 2px solid #0728e1;
+width: 230px;
+
+
+}
+
+.botao{
+
+width: 230px;
+border: 2px solid #0728e1;
+background: none;
+color:white;
+font-size: 20px;
+cursor: pointer;
+margin: 0px;
+padding: 3px;
+margin-top: 17px;
+text-transform: uppercase;
+
+
+}
+
+
+.caixadetexto input{
+
+border: none;
+outline: none;
+background: none;
+color: white;
+font-size: 15px;
+width: 120px;
+margin: 1px;
+text-transform: uppercase;
+
+
+
+
+}
