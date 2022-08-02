@@ -21,7 +21,7 @@ estos proyectos usan las tecnologias:HTML5,CSS3,Responsive design,css grid,flexb
   
    <a href="https://xbernardoalvez66.github.io/Logins-00/Logins/Logins-simples-28/index.html">Login-simples-28 </a>
    
-  <a href="https://xbernardoalvez66.github.io/Logins-00/Logins/Login-simples-29/index.html">Login-simples-29 </a>
+  <a href="https://xbernardoalvez66.github.io/Logins-00/Logins/Logins-simples-29/index.html">Login-simples-29 </a>
        
    <a href="https://xbernardoalvez66.github.io/Logins-00/Logins/Logins-simples-30/index.html">Login-simples-30 </a>
    
